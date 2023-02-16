@@ -1,6 +1,3 @@
-//Project: 七彩聖誕樹與自走車（聖誕樹部分）
-//Language: C(Arduino) 
-
 #include <Adafruit_NeoPixel.h>
 //燈環 16顆LED,燈帶14個LED, DI接到D7
 Adafruit_NeoPixel   Ring = Adafruit_NeoPixel(14, 8);//燈帶

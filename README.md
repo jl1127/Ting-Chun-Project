@@ -29,7 +29,20 @@ C(Arduino)
 1. Based on android app inventor
 2. Java
 ### Description
+[final project - account](https://github.com/jl1127/Account)
 
-## 
+## HDL - Final Project
 ### Language
+verilog
 ### Description
+射擊遊戲附有計分板功能
+
+## 專利實務期末報告
+### Description
+1. 專利發明之閱讀與報告
+2. 以現有論文進行專利申請之撰寫
+
+## 人工魚群演算法期末報告
+### Description
+Artificial Fish-Swarm Algoritm
+

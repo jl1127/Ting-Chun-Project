@@ -5,7 +5,7 @@ Matlab
 ## Description
 ### System Analysis
 #### Flow Chart
-![](https://i.imgur.com/j5BGCiM.png)
+![](https://i.imgur.com/IoeYlIw.png)
 #### Parameter
 
 | Name        | Meaning                        |

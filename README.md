@@ -10,11 +10,11 @@ An adorable game based on Java, which is inspired by mouse eating cheese, and ch
 
 ## 七彩聖誕樹與自走車
 ### Language
-1. Based on Arduino
-2. C++
+C/C++
 ### Description
-1. A breathing light is simulated star tree topper.
-2. A RGB LED is simulated Christmas lights, which can randomly change colors.
+1. A final project of Applied Electronics, based on Arduino.
+2. A breathing light is simulated star tree topper.
+3. A RGB LED is simulated Christmas lights, which can randomly change colors.
 
 ## ESP8266應用於社群網站
 ### Language
@@ -34,10 +34,10 @@ An adorable game based on Java, which is inspired by mouse eating cheese, and ch
  
 ## 記帳本app
 ### Language
-1. Based on android app inventor
-2. Java
+ Java
 ### Description
-[final project - account](https://github.com/jl1127/Account)
+An account app based on android app inventor.
+Save your receipts to track your spending.
 
 ## HDL - Final Project
 ### Language

@@ -5,7 +5,7 @@ Matlab
 ## Description
 ### System Analysis
 #### Topic
-![](https://i.imgur.com/H4Fmvrp.png =400x150)
+![](https://i.imgur.com/H4Fmvrp.png)
 
 #### Flow Chart
 ![](https://i.imgur.com/avBHuwe.png)

@@ -64,7 +64,7 @@ Save your receipts to track your spending.
     3. Intent
         + startActivityForResult() / onActivityResult(): Ensure accounting or not.
         + putXXXExtra(): Choose the field and content to send.
-        + getXXXExtra(): Receive the field and content to send.
+        + getXXXExtra(): Get the field and content to send.
     4. Database
         + cv.put(): Save accounting content to database.
     5. Cursor

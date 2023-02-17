@@ -2,13 +2,19 @@
 ###### tags: `TCprj`, `NTUE`
 essential final projects
 
+## 老鼠吃起司
+### Language
+Java
+### Description
+An adorable game based on Java, which is inspired by mouse eating cheese, and chased by cat.
+
 ## 七彩聖誕樹與自走車
 ### Language
 1. Based on Arduino
 2. C++
 ### Description
-1. 呼吸燈代表星星
-2. 燈帶模仿聖誕樹上的燈泡，可以隨機變色
+1. A breathing light is simulated star tree topper.
+2. A RGB LED is simulated Christmas lights, which can randomly change colors.
 
 ## ESP8266應用於社群網站
 ### Language
@@ -22,9 +28,9 @@ essential final projects
 2. AP: Phone
 3. server
 #### Concept
-1. 將網頁燒錄到ESP8266
-2. 手機可連線至網頁，並上傳資料
-3. 使網頁可以利用表單特性進行互動
+1. Burn web page to ESP8266 IC.
+2. The mobile phone can connect to the web pages and upload data.
+3. Using form features make web pages interactive.
  
 ## 記帳本app
 ### Language
@@ -37,41 +43,41 @@ essential final projects
 ### Language
 verilog
 ### Description
-射擊遊戲附有計分板功能
+A shooter game with scoreboard function.
 
 ## 專利實務期末報告
 ### Description
-1. 專利發明之閱讀與報告
-2. 以現有論文進行專利申請之撰寫
+1. Reading and reporting patent practice.
+2. Drafting a patent application with an existing paper.
 
 ## 尋找基因碼
 ### Language
 Matlab
 ### Description
-Find out Gene code
+Find out Gene code.
 
 ## 基因演算法應用實例之實現
 ### Language
 Matlab
 ### Description
-Implementation of Genetic Algorithm
+Implementation of Genetic Algorithm.
 
 ## ABC蜜蜂演算法應用實例之實現
 ### Language
 Matlab
 ### Description
-Implementation of Artificial Bee Colony Algorithm
+Implementation of Artificial Bee Colony Algorithm.
 
 ## 森林演算法應用實例之實現
 ### Language
 Matlab
 ### Description
-Implementation of Forest Algorithm
+Implementation of Forest Algorithm.
 
 ## 人工魚群演算法期末報告
 ### Language
 Matlab
 ### Description
-Implementation of Artificial Fish-Swarm Algoritm
+Implementation of Artificial Fish-Swarm Algoritm.
 
 

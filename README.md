@@ -37,7 +37,6 @@ C/C++
  Java
 ### Description
 An account app based on android app inventor.
-Save your receipts to track your spending.
 
 ## HDL - Final Project
 ### Language

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Accounting Book</string>
+    <!-- activity_main -->
+    <string name="strGoSec">Account</string>
+    <string name="strLeave">Leave</string>
+    <string name="strWelcome">Welcome to this app</string>
+    <!-- activity_second -->
+    <string name="strGoBack">Cancel</string>
+    <string name="strSubmit">Submit</string>
+    <string name="strExp">Expense</string>
+    <string name="strInc">Income</string>
+    <string name="strIncExp">Type</string>
+    <string name="strCategory">Category</string>
+    <string name="strPrice">Amount</string>
+    <string name="strPriceHint">Please Enter Amount</string>
+    <string name="strMemoHint">Please Enter Memo</string>
+    <string name="strSubmitCheck">Please Enter Date and Amount</string>
+    <string name="strMemo">Memo</string>
+    <string name="strDate">Date</string>
+    <string name="strSetDate">Not set</string>
+
+    <string-array name="recItems">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+    <string-array name="expItems">
+        <item>Food and Drink</item>
+        <item>Traffic</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="incItems">
+        <item>Salary</item>
+        <item>Investment</item>
+        <item>Bonus Income</item>
+        <item>Extra Income</item>
+        <item>Others</item>
+    </string-array>
+</resources>

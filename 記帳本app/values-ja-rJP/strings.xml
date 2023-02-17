@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">会計帳簿</string>
+    <!-- activity_main -->
+    <string name="strGoSec">簿記</string>
+    <string name="strLeave">閉じる</string>
+    <string name="strWelcome">この会計ソフトウェアの使用へようこそ</string>
+    <!-- activity_second -->
+    <string name="strGoBack">キャンセル</string>
+    <string name="strSubmit">送った</string>
+    <string name="strExp">支出</string>
+    <string name="strInc">所得</string>
+    <string name="strIncExp">記録</string>
+    <string name="strCategory">分類</string>
+    <string name="strPrice">金額</string>
+    <string name="strPriceHint">請求額を入力してください</string>
+    <string name="strMemoHint">請求書を入力してください</string>
+    <string name="strSubmitCheck">日付と金額を入力してください</string>
+    <string name="strMemo">メモ</string>
+    <string name="strDate">日付</string>
+    <string name="strSetDate">設定されていません</string>
+
+    <string-array name="recItems">
+        <item>所得</item>
+        <item>支出</item>
+    </string-array>
+    <string-array name="expItems">
+        <item>飲食</item>
+        <item>トラフィック</item>
+        <item>エンターテインメント</item>
+        <item>医療保険</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="incItems">
+        <item>給料収入</item>
+        <item>投資収益</item>
+        <item>ボーナス収入</item>
+        <item>余分な収入</item>
+        <item>その他</item>
+    </string-array>
+</resources>

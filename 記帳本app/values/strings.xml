@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">記帳本</string>
+    <!-- activity_main -->
+    <string name="strGoSec">記帳</string>
+    <string name="strLeave">離開</string>
+    <string name="strWelcome">歡迎使用本記帳軟體</string>
+    <!-- activity_second -->
+    <string name="strGoBack">取消</string>
+    <string name="strSubmit">送出</string>
+    <string name="strExp">支出</string>
+    <string name="strInc">收入</string>
+    <string name="strIncExp">紀錄</string>
+    <string name="strCategory">分類</string>
+    <string name="strPrice">金額</string>
+    <string name="strPriceHint">請輸入記帳金額</string>
+    <string name="strMemoHint">請輸入記帳備註</string>
+    <string name="strSubmitCheck">請輸入日期與金額</string>
+    <string name="strMemo">備註</string>
+    <string name="strDate">日期</string>
+    <string name="strSetDate">未設定</string>
+
+    <string-array name="recItems">
+        <item>收入</item>
+        <item>支出</item>
+    </string-array>
+    <string-array name="expItems">
+        <item>食品酒水</item>
+        <item>行車交通</item>
+        <item>休閒娛樂</item>
+        <item>醫療保健</item>
+        <item>其他雜項</item>
+    </string-array>
+    <string-array name="incItems">
+        <item>薪水收入</item>
+        <item>投資收入</item>
+        <item>獎金收入</item>
+        <item>額外收入</item>
+        <item>其他收入</item>
+    </string-array>
+</resources>

@@ -48,30 +48,30 @@ verilog
 ### Language
 Matlab
 ### Description
-[Find out Gene code](https://hackmd.io/4hqtxQSfQSmLQY9fGAJsew)
+Find out Gene code
 
 ## 基因演算法應用實例之實現
 ### Language
 Matlab
 ### Description
-[Implementation of Genetic Algorithm](https://hackmd.io/8hn53BcaQ1mTZyAjek36RA?both)
+Implementation of Genetic Algorithm
 
 ## ABC蜜蜂演算法應用實例之實現
 ### Language
 Matlab
 ### Description
-[Implementation of Artificial Bee Colony Algorithm](https://hackmd.io/aJhkdI61Q5GjsvOEsjBvVA)
+Implementation of Artificial Bee Colony Algorithm
 
 ## 森林演算法應用實例之實現
 ### Language
 Matlab
 ### Description
-[Implementation of Forest Algorithm](https://hackmd.io/B4M3ipXeRHCGA1Oq19A7KQ)
+Implementation of Forest Algorithm
 
 ## 人工魚群演算法期末報告
 ### Language
 Matlab
 ### Description
-[Implementation of Artificial Fish-Swarm Algoritm](https://hackmd.io/UTXBGkFPQQef9j_9bXLnng)
+Implementation of Artificial Fish-Swarm Algoritm
 
 

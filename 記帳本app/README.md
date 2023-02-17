@@ -1,5 +1,6 @@
 # Account
-Keep account and save money.
+###### tags: `TCprj`, `NTUE`
+Save your receipts to track your spending.
 
 ## 使用說明
 1.	開啟「記帳本」軟體
@@ -34,3 +35,37 @@ Keep account and save money.
         + cv.put(): 將記帳內容存入資料庫
     5. Cursor
         + cv.getXXX(): 取得資料庫的內容，並用存入的記帳金額，計算總存款
+
+## Guide
+1.	Open the app "Accounting Book".
+2.	Click the button "Account" on the left corner, and enter the accounting page.
+    1. "Type" field: Can choose "Income" or "Expense".
+    2. "Date" field: Can choose the accounting date.
+    3. "Amount" field: Can type number only.
+    4. "Categrory" field: Can choose detailed accouting category.
+    5. "Memo" field: Can type character.
+    6. Click the button "Submit" on the lower left corner to back to homepage, and it will display the details of accounting book.
+        + If the "Date" field or "Amount" field is empty, will pop out alert message.
+    7. Click the button "Cancel" on the lower right corner to back to homepage, and it will display the original details of accouting book.
+3.	Click the button "Leave" on the lower right corne to close app.
+4.	Support three langusges: Traditional Chinese(繁體中文), English, Japanese(日本語).
+
+## Component and technique
+1. Component
+    1. Text View
+    2. Button
+    3. Edit Text (Number)
+    4. Spinner
+    5. Edit Text (Plain)
+    6. Date Picker
+2. technique
+    1. Toast: alert message
+    2. Array Adapter: The spinner of "Type" field will change as long as "Category" field changes.
+    3. Intent
+        + startActivityForResult() / onActivityResult(): Ensure accounting or not.
+        + putXXXExtra(): Choose the field and content to send.
+        + getXXXExtra(): Receive the field and content to send.
+    4. Database
+        + cv.put(): Save accounting content to database.
+    5. Cursor
+        + cv.getXXX(): Get the content of database, and amount the deposit.

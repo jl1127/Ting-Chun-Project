@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="menuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameControl">
+   <children>
+      <Label fx:id="l_title" alignment="CENTER" contentDisplay="CENTER" layoutX="95.0" layoutY="59.0" prefHeight="155.0" prefWidth="411.0" text="逃離迷宮" textAlignment="CENTER" textFill="#1000ff">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+         <effect>
+            <Glow level="0.82" />
+         </effect>
+      </Label>
+      <Label fx:id="l_start" alignment="CENTER" contentDisplay="CENTER" layoutX="234.0" layoutY="339.0" prefHeight="82.0" prefWidth="132.0" text="Start" textAlignment="CENTER">
+         <font>
+            <Font size="58.0" />
+         </font>
+         <effect>
+            <Glow level="0.81" />
+         </effect>
+      </Label>
+      <TextField fx:id="tf_name" layoutX="149.0" layoutY="245.0" prefHeight="49.0" prefWidth="303.0" promptText="請輸入暱稱">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </TextField>
+      <Pane fx:id="pane" layoutY="-1.0" prefHeight="500.0" prefWidth="600.0" visible="false" />
+   </children>
+</Pane>

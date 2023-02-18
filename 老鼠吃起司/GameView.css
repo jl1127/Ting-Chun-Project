@@ -1,0 +1,41 @@
+.root {
+    -fx-background-image: url("javafx-login-background.jpg"); //讀取背景圖片
+}
+
+#l_title {
+    -fx-font-size: 96px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1000ff;
+    -fx-effect: new glow( 0.82 );
+}
+
+#l_clock {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f41717;
+}
+
+#player {
+    -fx-fill: #4cff1f;
+    -fx-effect: dropshadow( gaussian , rgba(26,255,0,1.0) , 20.5,0,0,0 );
+}
+
+#monster {
+    -fx-fill: #ff0000;
+    -fx-effect: dropshadow( gaussian , rgba(255,0,0,1.0) , 20.5,0,0,0 );
+}
+
+#l_start {
+    -fx-font-size: 58px;
+    -fx-text-fill: #333333;
+    -fx-effect: new glow( 0.82 );
+}
+
+.label {
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 ); //dropshadow參數分別為：模糊類型、RGBA顏色、模糊程度、寬度、水平位移、垂直位移
+}
+
+ 

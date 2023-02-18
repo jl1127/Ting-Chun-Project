@@ -38,17 +38,17 @@ Save your receipts to track your spending.
 
 ## Guide
 1.	Open the app "Accounting Book".
-2.	Click the button "Account" on the left corner, and enter the accounting page.
-    1. "Type" field: Can choose "Income" or "Expense".
-    2. "Date" field: Can choose the accounting date.
-    3. "Amount" field: Can type number only.
-    4. "Categrory" field: Can choose detailed accouting category.
-    5. "Memo" field: Can type character.
-    6. Click the button "Submit" on the lower left corner to back to homepage, and it will display the details of accounting book.
-        + If the "Date" field or "Amount" field is empty, will pop out alert message.
-    7. Click the button "Cancel" on the lower right corner to back to homepage, and it will display the original details of accouting book.
-3.	Click the button "Leave" on the lower right corne to close app.
-4.	Support three langusges: Traditional Chinese(繁體中文), English, Japanese(日本語).
+2.	Click "Account" on the left corner, and enter the accounting page.
+    1. "Type" field: Choose "Income" or "Expense".
+    2. "Date" field: Choose the accounting date.
+    3. "Amount" field: Type number only.
+    4. "Categrory" field: Choose detailed accouting category.
+    5. "Memo" field: Memo whatever you want.
+    6. Click "Submit" on the lower left corner to go back to homepage, and it will display the details of accounting book.
+        + If the "Date" field or "Amount" field is empty, it will trigger an alert message.
+    7. Click "Cancel" on the lower right corner to go back to homepage, and it will display the original details of accouting book.
+3.	Click "Leave" on the lower right corner to close the app.
+4.	Support three languages: Traditional Chinese(繁體中文), English, Japanese(日本語).
 
 ## Component and technique
 1. Component

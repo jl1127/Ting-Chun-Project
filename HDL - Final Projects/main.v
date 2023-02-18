@@ -1,9 +1,7 @@
-module main (clk, reset, left, right, fire, segout, scanout/*, segout7SEG, scanout7SEG*/);
+module main (clk, reset, left, right, fire, segout, scanout);
 input clk, reset, left, right, fire;
 output reg[7:0] segout;
 output reg[2:0] scanout;
-/*output reg[7:0] segout7SEG;
-output reg[2:0] scanout7SEG;*/
 
 reg [25:0] cnt_scan;
 // Player
@@ -19,15 +17,6 @@ reg [1:0] bloodB = 10;
 reg clk1, clk2;
 reg [63:0] q;
 reg [1:0] mode = 0;
-//Score
-/*
-reg [3:0] sel;
-reg [3:0] s0 = 4'h1;
-reg [3:0] s1 = 4'h0;
-reg [3:0] s2 = 4'h1;
-reg [3:0] s3 = 4'h5;
-reg [3:0] s4 = 4'h3;
-*/
 
 // Clock Running
 always @(posedge clk)
@@ -57,14 +46,6 @@ begin
         bossY = 0;
         bombX = 3;
         bombY = 0;
-        //Score
-        /*
-        s0 <= 4'h1;
-        s1 <= 4'h0;
-        s2 <= 4'h1;
-        s3 <= 4'h5;
-        s4 <= 4'h3;
-        */
         /* Display */
         q = 64'hffff_ffff_ffff_ffff;
         q[x + 8*y] = 1'b0;//Player
@@ -85,15 +66,6 @@ begin
                 bulletY = bulletY - 1;
                 if (bulletY == (bossY + 1) & bulletX == bossX)begin
                     bloodB <= bloodB - 1;
-                    /*
-                    if (s0 == 4'h1) begin//10->9
-                        s0 <= 4'h0;
-                        s1 <= 4'h9;
-                    end
-                    else begin//9->0
-                        s1 <= s1 -1;
-                    end  
-                    */
                 end
             end
             if (left == 0)begin
@@ -110,21 +82,6 @@ begin
                 bulletX = x;
                 bulletY = y-1;
                 bulletNum <= bulletNum - 1;
-                /*
-                if (s2 == 4'h1) begin
-                    if ( (bulletNum - bulletNum%10)/10 == 0)begin
-                        s3 <= 4'h9;
-                    end
-                    else if ( (bulletNum - bulletNum%10)/10 == 1) begin//15->11
-                        s2 <= 4'h1;
-                        s3 <= s2 - 1 ;
-                    end
-                end
-                else begin//9->0
-                    s2 <= 4'h0;
-                    s3 <= s3 -1;
-                end
-                */
             end
             // Boss
             if (bombY > 1)begin
@@ -139,28 +96,6 @@ begin
                     //s4 <= s4 - 1;
                 end
             end
-            /*
-            if (left == 0)begin
-                q = q | 64'h0000_0000_0000_00ff;//set [15:0] 1(off), others no change
-                bossX = bossX - 1;
-                q[bossX + 8*bossY] = 1'b0;
-                q[bossX + 8*bossY - 1] = 1'b0;
-                q[bossX + 8*bossY + 1] = 1'b0;
-                q[bossX + 8*(bossY + 1)] = 1'b0;
-            end
-            else if (right == 0)begin
-                q = q | 64'h0000_0000_0000_00ff;
-                bossX = bossX + 1;
-                q[bossX + 8*bossY] = 1'b0;
-                q[bossX + 8*bossY - 1] = 1'b0;
-                q[bossX + 8*bossY + 1] = 1'b0;
-                q[bossX + 8*(bossY + 1)] = 1'b0;
-            end
-            if (fire == 0)begin
-                bombX = bossX;
-                bombY = bossY + 2;
-            end
-            */
             // Mode
             if (bloodP == 0)begin
                 mode = 2;
@@ -241,41 +176,4 @@ begin
         default: segout = 8'hff;
     endcase
 end
-/*
-// Scan & Display 7-SEG
-always @(posedge cnt_scan[15])
-    scanout7SEG <= scanout7SEG + 1;
-
-always @(scanout7SEG)
-begin
-    case (scanout7SEG)
-        0: sel = 4'hf;
-        1: sel = s0;
-        2: sel = s1;
-        3: sel = 4'hf;
-        4: sel = s2;
-        5: sel = s3;
-        6: sel = 4'hf;
-        7: sel = s4;
-        default: sel = 4'hd;
-    endcase
-end
-always @(sel)
-begin
-    case (sel)
-        4'h0:segout7SEG <= 8'd192; //0
-        4'h1:segout7SEG <= 8'b11111001; //1
-        4'h2:segout7SEG <= 8'b10100100; //2
-        4'h3:segout7SEG <= 8'b10110000; //3
-        4'h4:segout7SEG <= 8'b10011001; //4
-        4'h5:segout7SEG <= 8'b10010010; //5
-        4'h6:segout7SEG <= 8'b10000010; //6
-        4'h7:segout7SEG <= 8'b11111000; //7
-        4'h8:segout7SEG <= 8'b10000000; //8
-        4'h9:segout7SEG <= 8'b10011000; //9
-    default:
-        segout <= 8'b10111111;
-   endcase
-end
-*/
 endmodule

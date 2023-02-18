@@ -36,7 +36,7 @@ Java
 
 ## Description
 1. Function
-    1. Change the background of Maze, and game over scene
+    1. Change the background image of Maze, and the game over image
         * with "START" button
     2. "START" button changes color, delay before starting game
     3. Game Levels

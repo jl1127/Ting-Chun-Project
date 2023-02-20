@@ -1,0 +1,589 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300&display=swap');
+        @media only screen and (max-width: 1500px) {
+            td>#p1 {
+                display: none;
+           
+           }
+           td>p{
+            display: none;
+           }
+       #header2{
+           height:100%;
+           margin-left: 15%;
+       }
+       #head{
+           position: fixed;
+           background-color: #A6BAC7;
+           width:100%;
+           height:8%;
+           margin: 0px;
+           border-width:0px 0px 3px 0px; 
+           border-style:solid;
+           border-color: #72788A ;
+           z-index: 3;
+       }
+       #home{
+           position: absolute;
+           right: 40%;
+           height: 80%;
+           margin-right: 10px;
+           top:10%;
+       }
+       #like{
+           position:absolute;
+           right:30%;
+           margin-left: 10px;
+          height: 80%;
+           top:10%;
+       }
+       #hospital{
+            position:absolute;
+            right:20%;
+            margin-left: 10px;
+           height:80%;
+           top:10%;
+        }
+       #profile{
+           position:absolute;
+           right:10%;
+           margin-right: 10px;
+           top:10%;
+          height: 80%;
+           
+           border-radius: 999em;
+       }
+       #limited{
+           position: relative;
+           margin-top:10%;
+           margin-left: 15%;
+           width: 500px;
+          
+           height: 80px;
+       }
+       #limited>#button{
+           position: absolute; 
+           height: 50%;
+          right: 1%;
+           top:30%;
+           border:none;
+           opacity: 1;
+       }
+       #limited_profile{
+           position:relative;
+           height:100%;
+           border-radius: 999em;
+           border-style: solid;
+           border-color: #72788A ;
+           border-width:2px;
+           margin-left: 10px;
+           margin-top: 5px;
+          
+       }
+       #put_profile{
+           position: absolute;
+           top:16%;
+           left:15%;
+           height:60px;
+           width:50%;
+           
+          
+       }
+       #story{
+           position: relative;
+           margin-top:100px;
+           margin-bottom: 50px;
+           margin-left: 15%;
+           width: 500px;
+           height: 500px;
+           background-color: rgb(249, 253, 255);
+           border-radius: 0.2em;
+           border-style: solid;
+           border-color: #72788A ;
+           border-width:1px;
+           
+       }
+       #mug_shot{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           border-bottom: solid;
+           border-color: #72788A ;
+           border-width:1px;
+       }
+       #mug{
+           position: absolute;
+           left:2%;
+           margin-left: 10px;
+           top:10%;
+          height: 80%;
+           
+           border-radius: 999em;
+       }
+       #mug_shot>#dog{
+           position: absolute;
+           top: 0%;
+           left: 15%;
+           font-size: 120%;
+           margin-left: 10px;
+           font-family: Trebuchet MS;
+       }
+       #picture{
+           position: absolute;
+           width: 100%;
+           top:10%;
+           height: 60%;
+           
+       }
+       #im{
+           position: absolute;
+           width: 100%;
+           height: 100%;
+       }
+       #response{
+           position: absolute;
+           width: 100%;
+           height: 7%;
+           top: 70%;
+           border-bottom: solid;
+           border-color: #72788A ;
+           border-width:1px;
+       }
+       #heart{
+           position: absolute;
+           left: 2%;
+           height: 100%;
+           top:0%;
+           margin-right: 10px;
+       }
+       #message{
+           position: absolute;
+           left: 13%;
+           height: 80%;
+           width: 7%;
+           top:10%;
+           margin-right: 10px;
+       }
+       #likeby{
+           position: absolute;
+           width: 100%;
+           height: 3%;
+           top: 77%;
+          
+       }
+       #likebysomeone{
+           position: absolute;
+           font-size: 15px;
+           left: 3%;
+           top:-40%;
+           font-family: Trebuchet MS;
+       }
+       #article{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           top: 80%;
+       }
+      
+       #article_{
+           position: absolute;
+           font-size: 20px;
+           left: 3%;
+           top:0%;
+           font-family: 'Noto Sans TC', sans-serif;
+           
+       } 
+       #article_>strong{font-family: Trebuchet MS;}
+       #comment{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           top: 90%;
+       }
+       #comment_{
+           position: absolute;
+           font-size: 20px;
+           left: 3%;
+           top:0%;
+           color:rgba(0, 0, 0, 0.308);
+           font-family: Trebuchet MS;
+       }
+       tr{
+           padding: -1px;
+       }
+       td{
+           padding: 0px;
+       }
+         #profile2{
+             display: none;
+         }
+         }
+         @media only screen and (min-width: 1500px) {
+        td>#p1 {
+           
+            font-family: 'Noto Sans TC', sans-serif;
+            color:rgba(0, 0, 0, 0.425);
+            font-size: 15px;
+            }
+        #header2{
+            height:100%;
+            margin-left: 15%;
+        }
+        #head{
+            position: fixed;
+            background-color: #A6BAC7;
+            width:100%;
+            height:8%;
+            margin: 0px;
+            border-width:0px 0px 3px 0px; 
+            border-style:solid;
+            border-color: #72788A ;
+            z-index: 3;
+        }
+        #home{
+            position: absolute;
+            right: 25%;
+            height: 80%;
+            margin-right: 10px;
+            top:10%;
+        }
+        #like{
+            position:absolute;
+            right:20%;
+            margin-left: 10px;
+           height: 80%;
+           top:10%;
+        }
+        #hospital{
+            position:absolute;
+            right:15%;
+            margin-left: 10px;
+           height:80%;
+           top:10%;
+        }
+        #profile{
+            position:absolute;
+            right:10%;
+            margin-right: 10px;
+            top:10%;
+           height: 80%;
+            
+            border-radius: 999em;
+        }
+        #limited{
+            position: relative;
+            margin-top:10%;
+            margin-left: 15%;
+            width: 700px;
+           
+            height: 80px;
+        }
+        #limited>#button{
+            position: absolute; 
+            height: 50%;
+           right: 1%;
+            top:30%;
+            border:none;
+            opacity: 1;
+        }
+        #limited_profile{
+            position:relative;
+            height:100%;
+            border-radius: 999em;
+            border-style: solid;
+            border-color: #72788A ;
+            border-width:2px;
+            margin-left: 10px;
+            margin-top: 5px;
+           
+        }
+        #put_profile{
+            position: absolute;
+            top:16%;
+            left:15%;
+            height:60px;
+            width:50%;
+            
+           
+        }
+        #story{
+            position: relative;
+            margin-top:100px;
+            margin-bottom: 50px;
+            margin-left: 15%;
+            width: 700px;
+            height: 700px;
+            background-color: rgb(249, 253, 255);
+            border-radius: 0.2em;
+            border-style: solid;
+            border-color: #72788A ;
+            border-width:1px;
+            
+        }
+        #mug_shot{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            border-bottom: solid;
+            border-color: #72788A ;
+            border-width:1px;
+        }
+        #mug{
+            position: absolute;
+            left:2%;
+            margin-left: 10px;
+            top:10%;
+           height: 80%;
+            
+            border-radius: 999em;
+        }
+        #mug_shot>#dog{
+            position: absolute;
+            top: 0%;
+            left: 15%;
+            font-size: 120%;
+            margin-left: 10px;
+            font-family: Trebuchet MS;
+        }
+        #picture{
+            position: absolute;
+            width: 100%;
+            top:10%;
+            height: 60%;
+            
+        }
+        #im{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        #response{
+            position: absolute;
+            width: 100%;
+            height: 7%;
+            top: 70%;
+            border-bottom: solid;
+            border-color: #72788A ;
+            border-width:1px;
+        }
+        #heart{
+            position: absolute;
+           left: 2%;
+           height: 100%;
+           top:0%;
+           margin-right: 10px;
+        }
+        #message{
+            position: absolute;
+            left: 13%;
+            height: 80%;
+            width: 7%;
+            top:10%;
+            margin-right: 10px;
+        }
+        #likeby{
+            position: absolute;
+            width: 100%;
+            height: 3%;
+            top: 77%;
+           
+        }
+        #likebysomeone{
+            position: absolute;
+            font-size: 15px;
+            left: 3%;
+            top:-40%;
+            font-family: Trebuchet MS;
+        }
+        #article{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 80%;
+        }
+       
+        #article_{
+            position: absolute;
+            font-size: 20px;
+            left: 3%;
+            top:0%;
+            font-family: 'Noto Sans TC', sans-serif;
+            
+        } 
+        #article_>strong{font-family: Trebuchet MS;}
+        #comment{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 90%;
+        }
+        #comment_{
+            position: absolute;
+            font-size: 20px;
+            left: 3%;
+            top:0%;
+            color:rgba(0, 0, 0, 0.308);
+            font-family: Trebuchet MS;
+        }
+        tr{
+            padding: -1px;
+        }
+        td{
+            padding: 0px;
+        }
+       
+        
+         #right{
+            position: fixed;
+            top:22.5%;
+            right: 7%;
+            margin-right: 5%;
+            margin-left: 50px;
+            width: 25%;
+            height: 500px;
+        }
+        #profile2{
+            position:absolute;
+            left:10%;
+           height: 150%;
+            
+            border-radius: 999em;
+        }
+        td>#p1{
+            
+            font-family: 'Noto Sans TC', sans-serif;
+           color:rgba(0, 0, 0, 0.425);
+           font-size: 15px;
+        }
+         }   
+        #drop{
+            position: fixed;
+            height:80%;
+            width: 30%;
+            background-color: white;
+            left:60%;
+            z-index: 2;
+            border-radius: 20px;
+            border: rgba(0, 0, 0, 0.308);
+            border-width: 2px;
+            border-style: dotted;
+            display: none;
+        }
+       #introduce{
+           position: absolute;
+           top:15%;
+           left:15%;
+           width:70%;
+           height:30%;
+       }
+        #profilea{
+            float: left;
+            position:relative;
+            height: 80%;
+            top: 10%;
+            left: 10%;
+            border-radius: 999em; 
+        }
+        #p{
+            font-family: 'Noto Sans TC', sans-serif;
+            float:right;
+            position:relative;
+            height: 80%;
+            top: 0%;
+            right: 50%;
+            
+        }
+        
+        table{
+            position: relative;
+           top:50%;
+           left:15%;
+           width:70%;
+           height:100%;
+        }
+        td>img{
+            position: relative;
+            width: 90%;
+            height: 300px;
+            padding: 10px;
+        }
+    </style>
+   <!-- <script>
+        var flag=0;
+        
+      function heart_onclick(){
+          !flag;
+           // document.getElementById("p1").innerHtML=flag;
+            if(flag){
+                document.getElementById("like").getAttribute("src")="image/heart_B.png";
+                document.getElementById("drop").style.display="block";
+            }else if(!flag){
+                document.getElementById("like").getAttribute("src")="image/heart_A.png";
+                document.getElementById("drop").style.display="none";
+            }
+      }
+    </script>-->
+</head>
+<body style="margin:0px; background-color:#EFF2F5;  height:1000px">
+    <div id="drop">
+
+    </div>
+    <div id="head">
+        
+   
+   
+            <image id="header2" src="image/header1.png"></image>
+            <image id="home"onclick="location.href='firstHomeOfYa.html'" src="image/home_B.png"></image>
+            <div id="heart_show"></div>
+            <image id="like" src="image/heart_A.png" onclick="heart_onclick()"></image>
+            <image id="hospital" type="button" onclick="location.href='health.html'" src="image/hospital.png" ></image>
+            <image id="profile"  src="image/profile.png"></image>
+        </div>
+        <script>
+            var flag=0;
+             
+          function heart_onclick(){
+              flag=!flag;
+              //document.getElementById("p1").innerHTML = flag;
+              if(!flag){
+                document.getElementById("like").src="image/heart_A.png";
+                document.getElementById("drop").style.display="none";
+                }
+              else{
+                document.getElementById("like").src="image/heart_B.png";
+                document.getElementById("drop").style.display="block"; 
+              }
+          }
+        </script>
+        <div id="introduce"> 
+            <image id="profilea"  src="image/profile.png"></image>
+            <div id="p">
+                <p style="font-size: 30px;font-weight: bold;">ID    a8s287</p>
+                <p style="font-size: 20px;font-weight: bold;">亞閒</br>的第一個家</br></p>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td><image src="image/a.jpg"></image></td>
+                <td><image src="image/b.jpg"></image></td>
+                <td><image src="image/c.jpg"></image></image></td>
+            </tr>
+            <tr>
+                <td><image src="image/d.jpg"></image></td>
+                <td><image src="image/e.jpg"></image></td>
+                <td><image src="image/f.jpg"></image></td>
+            </tr>
+            <tr>
+                <td><image src="image/g.jpg"></image></td>
+                <td><image src="image/h.jpeg"></image></td>
+                <td><image src="image/i.png"></image></td>
+            </tr>
+        </table>
+        </body>
+</html>

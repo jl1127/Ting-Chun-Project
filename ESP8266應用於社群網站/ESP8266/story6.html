@@ -1,0 +1,546 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300&display=swap');
+        @media only screen and (max-width: 1000px) {
+            td>#p1 {
+           
+           font-family: 'Noto Sans TC', sans-serif;
+           color:rgba(0, 0, 0, 0.425);
+           font-size: 15px;
+           }
+       #header2{
+           height:100%;
+           margin-left: 15%;
+       }
+       #head{
+           position: fixed;
+           background-color: #A6BAC7;
+           width:100%;
+           height:8%;
+           margin: 0px;
+           border-width:0px 0px 3px 0px; 
+           border-style:solid;
+           border-color: #72788A ;
+           z-index: 3;
+       }
+       #home{
+           position: absolute;
+           right: 25%;
+           height: 80%;
+           margin-right: 10px;
+           top:10%;
+       }
+       #like{
+           position:absolute;
+           right:20%;
+           margin-left: 10px;
+          height: 80%;
+          top:10%;
+       }
+       #hospital{
+           position:absolute;
+           right:15%;
+           margin-left: 10px;
+          height:80%;
+          top:10%;
+       }
+       #profile{
+           position:absolute;
+           right:10%;
+           margin-right: 10px;
+           top:10%;
+          height: 80%;
+           
+           border-radius: 999em;
+       }
+       #limited{
+           position: relative;
+           margin-top:10%;
+           margin-left: 15%;
+           width: 700px;
+          
+           height: 80px;
+       }
+       #limited>#button{
+           position: absolute; 
+           height: 50%;
+          right: 1%;
+           top:30%;
+           border:none;
+           opacity: 1;
+       }
+       #limited_profile{
+           position:relative;
+           height:100%;
+           border-radius: 999em;
+           border-style: solid;
+           border-color: #72788A ;
+           border-width:2px;
+           margin-left: 10px;
+           margin-top: 5px;
+          
+       }
+       #put_profile{
+           position: absolute;
+           top:16%;
+           left:15%;
+           height:60px;
+           width:50%;
+           
+          
+       }
+       #story{
+           position: relative;
+           margin-top:100px;
+           margin-bottom: 50px;
+           margin-left: 15%;
+           width: 700px;
+           height: 700px;
+           background-color: rgb(249, 253, 255);
+           border-radius: 0.2em;
+           border-style: solid;
+           border-color: #72788A ;
+           border-width:1px;
+           
+       }
+       #mug_shot{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           border-bottom: solid;
+           border-color: #72788A ;
+           border-width:1px;
+       }
+       #mug{
+           position: absolute;
+           left:2%;
+           margin-left: 10px;
+           top:10%;
+          height: 80%;
+           
+           border-radius: 999em;
+       }
+       #mug_shot>#dog{
+           position: absolute;
+           top: 0%;
+           left: 15%;
+           font-size: 120%;
+           margin-left: 10px;
+           font-family: Trebuchet MS;
+       }
+       #picture{
+           position: absolute;
+           width: 100%;
+           top:10%;
+           height: 60%;
+           
+       }
+       #im{
+           position: absolute;
+           width: 100%;
+           height: 100%;
+       }
+       #response{
+           position: absolute;
+           width: 100%;
+           height: 7%;
+           top: 70%;
+           border-bottom: solid;
+           border-color: #72788A ;
+           border-width:1px;
+       }
+       #heart{
+           position: absolute;
+          left: 2%;
+          height: 100%;
+          top:0%;
+          margin-right: 10px;
+       }
+       #message{
+           position: absolute;
+           left: 13%;
+           height: 80%;
+           width: 7%;
+           top:10%;
+           margin-right: 10px;
+       }
+       #likeby{
+           position: absolute;
+           width: 100%;
+           height: 3%;
+           top: 77%;
+          
+       }
+       #likebysomeone{
+           position: absolute;
+           font-size: 15px;
+           left: 3%;
+           top:-40%;
+           font-family: Trebuchet MS;
+       }
+       #article{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           top: 80%;
+       }
+      
+       #article_{
+           position: absolute;
+           font-size: 20px;
+           left: 3%;
+           top:0%;
+           font-family: 'Noto Sans TC', sans-serif;
+           
+       } 
+       #article_>strong{font-family: Trebuchet MS;}
+       #comment{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           top: 90%;
+       }
+       #comment_{
+           position: absolute;
+           font-size: 20px;
+           left: 3%;
+           top:0%;
+           color:rgba(0, 0, 0, 0.308);
+           font-family: Trebuchet MS;
+       }
+       tr{
+           padding: -1px;
+       }
+       td{
+           padding: 0px;
+       }
+      
+       
+        #right{
+           position: fixed;
+           top:2%;
+           right: 7%;
+           left: 25%;
+           width: 50%;
+           height: 100px;
+       }
+       #profile2{
+           position:absolute;
+           left:0%;
+          height: 100%;
+           
+           border-radius: 999em;
+       }
+       td>#p1{
+           
+           font-family: 'Noto Sans TC', sans-serif;
+          color:rgba(0, 0, 0, 0.425);
+          font-size: 15px;
+       }
+        #ip{
+            position:absolute; font-family: Trebuchet MS; left:60px;
+        }
+        }
+        @media only screen and (min-width: 1000px) {
+        td>#p1 {
+           
+            font-family: 'Noto Sans TC', sans-serif;
+            color:rgba(0, 0, 0, 0.425);
+            font-size: 15px;
+            }
+        #header2{
+            height:100%;
+            margin-left: 15%;
+        }
+        #head{
+            position: fixed;
+            background-color: #A6BAC7;
+            width:100%;
+            height:8%;
+            margin: 0px;
+            border-width:0px 0px 3px 0px; 
+            border-style:solid;
+            border-color: #72788A ;
+            z-index: 3;
+        }
+        #home{
+            position: absolute;
+            right: 25%;
+            height: 80%;
+            margin-right: 10px;
+            top:10%;
+        }
+        #like{
+            position:absolute;
+            right:20%;
+            margin-left: 10px;
+           height: 80%;
+           top:10%;
+        }
+        #hospital{
+            position:absolute;
+            right:15%;
+            margin-left: 10px;
+           height:80%;
+           top:10%;
+        }
+        #profile{
+            position:absolute;
+            right:10%;
+            margin-right: 10px;
+            top:10%;
+           height: 80%;
+            
+            border-radius: 999em;
+        }
+        #limited{
+            position: relative;
+            margin-top:10%;
+            margin-left: 15%;
+            width: 700px;
+           
+            height: 80px;
+        }
+        #limited>#button{
+            position: absolute; 
+            height: 50%;
+           right: 1%;
+            top:30%;
+            border:none;
+            opacity: 1;
+        }
+        #limited_profile{
+            position:relative;
+            height:100%;
+            border-radius: 999em;
+            border-style: solid;
+            border-color: #72788A ;
+            border-width:2px;
+            margin-left: 10px;
+            margin-top: 5px;
+           
+        }
+        #put_profile{
+            position: absolute;
+            top:16%;
+            left:15%;
+            height:60px;
+            width:50%;
+            
+           
+        }
+        #story{
+            position: relative;
+            margin-top:100px;
+            margin-bottom: 50px;
+            margin-left: 15%;
+            width: 700px;
+            height: 700px;
+            background-color: rgb(249, 253, 255);
+            border-radius: 0.2em;
+            border-style: solid;
+            border-color: #72788A ;
+            border-width:1px;
+            
+        }
+        #mug_shot{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            border-bottom: solid;
+            border-color: #72788A ;
+            border-width:1px;
+        }
+        #mug{
+            position: absolute;
+            left:2%;
+            margin-left: 10px;
+            top:10%;
+           height: 80%;
+            
+            border-radius: 999em;
+        }
+        #mug_shot>#dog{
+            position: absolute;
+            top: 0%;
+            left: 15%;
+            font-size: 120%;
+            margin-left: 10px;
+            font-family: Trebuchet MS;
+        }
+        #picture{
+            position: absolute;
+            width: 100%;
+            top:10%;
+            height: 60%;
+            
+        }
+        #im{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        #response{
+            position: absolute;
+            width: 100%;
+            height: 7%;
+            top: 70%;
+            border-bottom: solid;
+            border-color: #72788A ;
+            border-width:1px;
+        }
+        #heart{
+            position: absolute;
+           left: 2%;
+           height: 100%;
+           top:0%;
+           margin-right: 10px;
+        }
+        #message{
+            position: absolute;
+            left: 13%;
+            height: 80%;
+            width: 7%;
+            top:10%;
+            margin-right: 10px;
+        }
+        #likeby{
+            position: absolute;
+            width: 100%;
+            height: 3%;
+            top: 77%;
+           
+        }
+        #likebysomeone{
+            position: absolute;
+            font-size: 15px;
+            left: 3%;
+            top:-40%;
+            font-family: Trebuchet MS;
+        }
+        #article{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 80%;
+        }
+       
+        #article_{
+            position: absolute;
+            font-size: 20px;
+            left: 3%;
+            top:0%;
+            font-family: 'Noto Sans TC', sans-serif;
+            
+        } 
+        #article_>strong{font-family: Trebuchet MS;}
+        #comment{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 90%;
+        }
+        #comment_{
+            position: absolute;
+            font-size: 20px;
+            left: 3%;
+            top:0%;
+            color:rgba(0, 0, 0, 0.308);
+            font-family: Trebuchet MS;
+        }
+        tr{
+            padding: -1px;
+        }
+        td{
+            padding: 0px;
+        }
+       
+        
+         #right{
+            position: fixed;
+            top:2%;
+            right: 7%;
+            left: 25%;
+            width: 50%;
+            height: 100px;
+        }
+        #profile2{
+            position:absolute;
+            left:0%;
+           height: 100%;
+            
+            border-radius: 999em;
+        }
+        td>#p1{
+            
+            font-family: 'Noto Sans TC', sans-serif;
+           color:rgba(0, 0, 0, 0.425);
+           font-size: 15px;
+        }
+         #ip{
+            position:absolute; font-family: Trebuchet MS; left:60px;
+         }
+        }
+        #st{
+            position: fixed;
+            top:10%;
+            left:25%;
+            height:90%;
+            width:50%;
+
+        }
+        #leftB{
+            position: fixed;
+            width:5%;
+            left:20%;
+            top:60%;
+        }
+        #rightB{
+            position: fixed;
+            width:5%;
+            right:20%;
+            top:60%;
+        }
+        #close{
+            position: fixed;
+            width:5%;
+            right:15%;
+            top:10%;
+        }
+        button{
+            border: 0ch;
+        }
+    </style>
+    
+</head>
+<body style="margin:0px; background-color:#EFF2F5;  ">
+    <div id="right">
+    <table >
+    <tbody>
+        <tr>
+            <td style="position:absolute;width: 100%;height: 50%;">
+                <image id="profile2" src="image/profile6.jpg"></image>
+                <p id="ip" ><strong>a8s287</strong></p>
+                <p id="date" style="position:absolute; font-family: Trebuchet MS;right:10%; color:rgba(0, 0, 0, 0.425);"><strong>a8s287</strong></p>
+                <script>
+                    var date = new Date();
+                    document.getElementById("date").innerHTML=date.getHours()+":"+date.getMinutes();
+                </script>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+            
+    </div>
+    <image id="st" src="image/f.jpg"></image>
+    <button onclick="location.href='story5.html'"><image id="leftB" src="image/left_B.png" ></image></button>
+    <button onclick="location.href='story7.html'"><image id="rightB" src="image/right_B.png" ></image></button>
+    <button onclick="window.close();"><image id="close" src="image/close.png" ></image></button>
+    
+    </body>
+</html>

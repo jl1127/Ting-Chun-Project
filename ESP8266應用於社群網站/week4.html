@@ -1,0 +1,147 @@
+<html>
+<head>	
+	<meta charset="UTF-8">
+	<style>
+	body{
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	}
+	#menu{
+	position:fixed;
+	height:100%;
+	width:200px;
+	background-color:white;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-top:20px;
+	padding-left:10px;
+	padding-right:20px;
+	}
+	a
+	{text-decoration:none;}
+	li, #title
+	{
+  	background-color: white;
+  	font-family: "Tahoma";
+  	border:none;
+  	color: #a18cd1;
+	}
+   	   li:hover {
+ 	color: #fbc2eb;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	}	
+	#header
+	{
+		margin-left:50%;	
+	}
+	#header>h1
+	{
+		font-family: "Tahoma";
+		color:white;
+	}
+	#content{
+		padding:20px 20px;
+		padding-bottom:100px;
+		margin-left:300px;
+		margin-right:50px;
+		background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+	}
+	h2,h1,h3,h4,h5{
+	font-family:Microsoft JhengHei;
+	color:		#DEB887;
+	}
+	.iframe{
+	width:100%;
+	height:400px;
+	}
+	td{
+		width:50%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	</style>
+	
+</head>
+<body>	
+	<div id="menu">
+	<center><h1 id="title">Menu</h1></center>
+		<ul style="font-size:25px; font-family:#B0E0E6;">
+		<a href="report.html"><li>Home</li></a>
+		<a href="ESP8266/firstHomeOfYa.html"><li style="font-family:Microsoft JhengHei;">亞間的第一個家</li></a>
+        <a href="introduction.html"><li>Introduction</li></a>
+        <a href="week1.html"><li>Week1</li></a>
+        <a href="week2.html"><li>Week2</li></a>
+        <a href="week3.html"><li>Week3</li></a>
+        <a href="week4.html"><li>Week4</li></a>
+		</ul>
+	</div>
+	<div id="header">
+		<h1 >Week4</h1>
+		</div>
+	<div id="content">
+	<center>
+	<h2 style="font-size: 40px;">
+		新增網頁功能
+	</h2>
+	</center>
+	<!--
+      <img class="iframe" src="image/5.png">-->
+      
+      <h4 style="font-size: 20px;">
+        <a style="font-family:Microsoft JhengHei;" href="ESP8266/firstHomeOfYa.html">亞間的第一個家</a></br>
+		1. 本周進度</br>
+        額溫槍弄成表格</br>
+        首頁樣式改變</br>
+        新增發文介面</br>
+        新增chat介面</br>
+        PHP做story的部分</br><!--
+        2.新增story網頁</br>
+        <img class="iframe" src="image/5_1.png"></br></br>
+         <img class="iframe" src="image/5_2.png"></br></br>
+         <img class="iframe" src="image/5_3.png"></br></br>
+         <img class="iframe" src="image/5_4.png"></br></br>
+         <a style="font-family:Microsoft JhengHei;" href="ESP8266/story.html">Story</a></br>
+         <img class="iframe" src="image/6.png"></br></br>
+         <img class="iframe" src="image/6_1.png"></br></br>
+         <img class="iframe" src="image/6_2.png"></br></br>-->
+         
+	    </h4></br></br>
+		
+        
+        <h2 style="font-size: 40px;">與D1 mini結合</h2>
+      </center>
+      <img class="iframe" src="image/D1mini1.jpg" style="width: 400px; height: 500px;">
+      <h1 style="font-size: 20px;">將耳溫槍的零件接到D1 mini使用，</br>
+      終於能在按下按鈕時傳送溫度到thingspeak。</h1></br>
+      <img class="iframe" src="image/headtemp1.jpg" style="width: 700px; height: 350px;">
+      <h1 style="font-size: 20px;">目前測量的缺點是不精確，沒有校正溫度的功能，</br>
+      希望下週前有空讓溫度精確一些。</h1></br>
+      <h1 style="font-size: 20px;"><br>
+        網頁部分<br>
+        <img class="iframe" src="image/IGproto1.jpg" style="width: 700px; height: 350px;">
+      </h1>
+      <h1 style="font-size: 20px;">能利用D1 mini開啟簡化版IG，</br>
+      但是圖片出不來也沒辦法按連結。</h1><br>
+	  <h1 style="font-size: 20px;">
+		<img class="iframe" src="image/7.png" style="width: 700px; height: 150px;"></br>
+		目前討論story的部分用php實現</br>
+		<img class="iframe" src="image/8.png" style="width: 700px; height: 350px;"></br>
+		愛心圖案改成CHAT可以上傳文字圖片</br>
+		<img class="iframe" src="image/9.png" style="width: 700px; height: 350px;"></br>
+	  	profile部分則利用檔案讀寫跟ESP8266一起實現</br>
+		<img class="iframe" src="image/IGproto1.jpg" style="width: 700px; height: 350px;"></br>
+		另外討論這個部分圖片用D1mini跟JS解決</br>
+	  	新增CHAT的部分，則用MQTT跟ESP8266做</br>
+		</h1>
+	
+	
+	
+	</div>
+	
+
+	</div>
+</body>
+</html>

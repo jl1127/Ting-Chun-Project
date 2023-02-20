@@ -1,0 +1,667 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300&display=swap');
+        @media only screen and (max-width: 1500px) {
+            td>#p1 {
+                display: none;
+           
+           }
+           td>p{
+            display: none;
+           }
+       #header2{
+           height:100%;
+           margin-left: 15%;
+       }
+       #head{
+           position: fixed;
+           background-color: #A6BAC7;
+           width:100%;
+           height:8%;
+           margin: 0px;
+           border-width:0px 0px 3px 0px; 
+           border-style:solid;
+           border-color: #72788A ;
+           z-index: 3;
+       }
+       #home{
+           position: absolute;
+           right: 40%;
+           height: 80%;
+           margin-right: 10px;
+           top:10%;
+       }
+       #like{
+           position:absolute;
+           right:30%;
+           margin-left: 10px;
+          height: 80%;
+           top:10%;
+       }
+       #hospital{
+            position:absolute;
+            right:20%;
+            margin-left: 10px;
+           height:80%;
+           top:10%;
+        }
+       #profile{
+           position:absolute;
+           right:10%;
+           margin-right: 10px;
+           top:10%;
+          height: 80%;
+           
+           border-radius: 999em;
+       }
+       #limited{
+           position: relative;
+           margin-top:10%;
+           margin-left: 15%;
+           width: 500px;
+          
+           height: 80px;
+       }
+       #limited>#button{
+           position: absolute; 
+           height: 50%;
+          right: 1%;
+           top:30%;
+           border:none;
+           opacity: 1;
+       }
+       #limited_profile{
+           position:relative;
+           height:100%;
+           border-radius: 999em;
+           border-style: solid;
+           border-color: #72788A ;
+           border-width:2px;
+           margin-left: 10px;
+           margin-top: 5px;
+          
+       }
+       #put_profile{
+           position: absolute;
+           top:16%;
+           left:15%;
+           height:60px;
+           width:50%;
+           
+          
+       }
+       #story{
+           position: relative;
+           margin-top:100px;
+           margin-bottom: 50px;
+           margin-left: 15%;
+           width: 500px;
+           height: 500px;
+           background-color: rgb(249, 253, 255);
+           border-radius: 0.2em;
+           border-style: solid;
+           border-color: #72788A ;
+           border-width:1px;
+           
+       }
+       #mug_shot{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           border-bottom: solid;
+           border-color: #72788A ;
+           border-width:1px;
+       }
+       #mug1,#mug2{
+           position: absolute;
+           left:2%;
+           margin-left: 10px;
+           top:10%;
+          height: 80%;
+           
+           border-radius: 999em;
+       }
+       #mug_shot>#dog{
+           position: absolute;
+           top: 0%;
+           left: 15%;
+           font-size: 120%;
+           margin-left: 10px;
+           font-family: Trebuchet MS;
+       }
+       #picture{
+           position: absolute;
+           width: 100%;
+           top:10%;
+           height: 60%;
+           
+       }
+       #im1,#im2{
+           position: absolute;
+           width: 100%;
+           height: 100%;
+       }
+       #response{
+           position: absolute;
+           width: 100%;
+           height: 7%;
+           top: 70%;
+           border-bottom: solid;
+           border-color: #72788A ;
+           border-width:1px;
+       }
+       #heart{
+           position: absolute;
+           left: 2%;
+           height: 100%;
+           top:0%;
+           margin-right: 10px;
+       }
+       #message{
+           position: absolute;
+           left: 13%;
+           height: 80%;
+           width: 7%;
+           top:10%;
+           margin-right: 10px;
+       }
+       #likeby{
+           position: absolute;
+           width: 100%;
+           height: 3%;
+           top: 77%;
+          
+       }
+       #likebysomeone{
+           position: absolute;
+           font-size: 15px;
+           left: 3%;
+           top:-40%;
+           font-family: Trebuchet MS;
+       }
+       #article{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           top: 80%;
+       }
+      
+       #article1,#article2{
+           position: absolute;
+           font-size: 20px;
+           left: 3%;
+           top:0%;
+           font-family: 'Noto Sans TC', sans-serif;
+           
+       } 
+       #article1>strong,#article2>strong{font-family: Trebuchet MS;}
+       #comment{
+           position: absolute;
+           width: 100%;
+           height: 10%;
+           top: 90%;
+       }
+       #comment_{
+           position: absolute;
+           font-size: 20px;
+           left: 3%;
+           top:0%;
+           color:rgba(0, 0, 0, 0.308);
+           font-family: Trebuchet MS;
+       }
+       tr{
+           padding: -1px;
+       }
+       td{
+           padding: 0px;
+       }
+         #profile2{
+             display: none;
+         }
+         }
+         @media only screen and (min-width: 1500px) {
+        td>#p1 {
+           
+            font-family: 'Noto Sans TC', sans-serif;
+            color:rgba(0, 0, 0, 0.425);
+            font-size: 15px;
+            }
+        #header2{
+            height:100%;
+            margin-left: 15%;
+        }
+        #head{
+            position: fixed;
+            background-color: #A6BAC7;
+            width:100%;
+            height:8%;
+            margin: 0px;
+            border-width:0px 0px 3px 0px; 
+            border-style:solid;
+            border-color: #72788A ;
+            z-index: 3;
+        }
+        #home{
+            position: absolute;
+            right: 25%;
+            height: 80%;
+            margin-right: 10px;
+            top:10%;
+        }
+        #like{
+            position:absolute;
+            right:20%;
+            margin-left: 10px;
+           height: 80%;
+           top:10%;
+        }
+        #hospital{
+            position:absolute;
+            right:15%;
+            margin-left: 10px;
+           height:80%;
+           top:10%;
+        }
+        #profile{
+            position:absolute;
+            right:10%;
+            margin-right: 10px;
+            top:10%;
+           height: 80%;
+            
+            border-radius: 999em;
+        }
+        #limited{
+            position: relative;
+            margin-top:10%;
+            margin-left: 15%;
+            width: 700px;
+           
+            height: 80px;
+        }
+        #limited>#button{
+            position: absolute; 
+            height: 50%;
+           right: 1%;
+            top:30%;
+            border:none;
+            opacity: 1;
+        }
+        #limited_profile{
+            position:relative;
+            height:100%;
+            border-radius: 999em;
+            border-style: solid;
+            border-color: #72788A ;
+            border-width:2px;
+            margin-left: 10px;
+            margin-top: 5px;
+           
+        }
+        #put_profile{
+            position: absolute;
+            top:16%;
+            left:15%;
+            height:60px;
+            width:50%;
+            
+           
+        }
+        #story{
+            position: relative;
+            margin-top:100px;
+            margin-bottom: 50px;
+            margin-left: 15%;
+            width: 700px;
+            height: 700px;
+            background-color: rgb(249, 253, 255);
+            border-radius: 0.2em;
+            border-style: solid;
+            border-color: #72788A ;
+            border-width:1px;
+            
+        }
+        #mug_shot{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            border-bottom: solid;
+            border-color: #72788A ;
+            border-width:1px;
+        }
+        #mug1,#mug2{
+            position: absolute;
+            left:2%;
+            margin-left: 10px;
+            top:10%;
+           height: 80%;
+            
+            border-radius: 999em;
+        }
+        #mug_shot>#dog{
+            position: absolute;
+            top: 0%;
+            left: 15%;
+            font-size: 120%;
+            margin-left: 10px;
+            font-family: Trebuchet MS;
+        }
+        #picture{
+            position: absolute;
+            width: 100%;
+            top:10%;
+            height: 60%;
+            
+        }
+        #im1,#im2{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        #response{
+            position: absolute;
+            width: 100%;
+            height: 7%;
+            top: 70%;
+            border-bottom: solid;
+            border-color: #72788A ;
+            border-width:1px;
+        }
+        #heart{
+            position: absolute;
+           left: 2%;
+           height: 100%;
+           top:0%;
+           margin-right: 10px;
+        }
+        #message{
+            position: absolute;
+            left: 13%;
+            height: 80%;
+            width: 7%;
+            top:10%;
+            margin-right: 10px;
+        }
+        #likeby{
+            position: absolute;
+            width: 100%;
+            height: 3%;
+            top: 77%;
+           
+        }
+        #likebysomeone{
+            position: absolute;
+            font-size: 15px;
+            left: 3%;
+            top:-40%;
+            font-family: Trebuchet MS;
+        }
+        #article{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 80%;
+        }
+       
+        #article1,#article2{
+            position: absolute;
+            font-size: 20px;
+            left: 3%;
+            top:0%;
+            font-family: 'Noto Sans TC', sans-serif;
+            
+        } 
+        #article1>strong,#article2>strong{font-family: Trebuchet MS;}
+        #comment{
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            top: 90%;
+        }
+        #comment_{
+            position: absolute;
+            font-size: 20px;
+            left: 3%;
+            top:0%;
+            color:rgba(0, 0, 0, 0.308);
+            font-family: Trebuchet MS;
+        }
+        tr{
+            padding: -1px;
+        }
+        td{
+            padding: 0px;
+        }
+       
+        
+         #right{
+            position: fixed;
+            top:22.5%;
+            right: 7%;
+            margin-right: 5%;
+            margin-left: 50px;
+            width: 25%;
+            height: 500px;
+        }
+        #profile2{
+            position:absolute;
+            left:10%;
+           height: 150%;
+            
+            border-radius: 999em;
+        }
+        td>#p1{
+            
+            font-family: 'Noto Sans TC', sans-serif;
+           color:rgba(0, 0, 0, 0.425);
+           font-size: 15px;
+        }
+         }   
+        #drop{
+            position: fixed;
+            height:80%;
+            width: 30%;
+            background-color: white;
+            left:60%;
+            z-index: 2;
+            border-radius: 20px;
+            border: rgba(0, 0, 0, 0.308);
+            border-width: 2px;
+            border-style: dotted;
+            display: none;
+        }
+    </style>
+   <!-- <script>
+        var flag=0;
+        
+      function heart_onclick(){
+          !flag;
+           // document.getElementById("p1").innerHtML=flag;
+            if(flag){
+                document.getElementById("like").getAttribute("src")="image/heart_B.png";
+                document.getElementById("drop").style.display="block";
+            }else if(!flag){
+                document.getElementById("like").getAttribute("src")="image/heart_A.png";
+                document.getElementById("drop").style.display="none";
+            }
+      }
+    </script>-->
+</head>
+<body style="margin:0px; background-color:#EFF2F5;  height:1000px">
+    <div id="drop"><!--隱藏式列表-->
+        <form name="myForm" style="position:absolute; top:10%;left:0%;">
+            </br>&nbsp;
+            <input type="text" name="myText" value=""><!--點擊時，觸發JS事件改變-->
+            <input type="button" value="上傳第一張頭貼" onClick="myFun()"></br></br>&nbsp;
+            <input type="text" name="myText1" value="">
+            <input type="button" value="上傳第一篇文章" onClick="myFun1()"></br></br>&nbsp;
+            <input type="text" name="myText2" value="">
+            <input type="button" value="上傳第一張圖片" onClick="myFun2()"></br></br>&nbsp;
+            <input type="text" name="myText22" value="">
+            <input type="button" value="上傳第二張頭貼" onClick="myFun22()"></br></br>&nbsp;
+            <input type="text" name="myText21" value="">
+            <input type="button" value="上傳第二篇文章" onClick="myFun21()"></br></br>&nbsp;
+            <input type="text" name="myText20" value="">
+            <input type="button" value="上傳第二張圖片" onClick="myFun20()"></br></br>&nbsp;
+            <button onclick="window.open('http://innoflight.synology.me:8080/elec/login.php', 'story')">上傳限時動態圖片</button>
+        </form>
+    </div>
+    
+    <div id="head">
+        <image id="header2" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/header1.png"></image>
+        <image id="home" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/home_B.png"></image>
+        <div id="heart_show"></div>
+        <image id="like" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/upload.png" onclick="heart_onclick()"></image>
+        <image id="hospital" type="button" onclick="location.href='https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/health.html'" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/hospital.png" ></image>
+        <image id="profile" type="button" onclick="location.href='https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/profile.html'" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/profile.png"></image>
+    </div>
+    <script>
+        var flag=0;
+             
+        function heart_onclick(){
+            flag=!flag;//檢查菜單現在是開還是關
+            //document.getElementById("p1").innerHTML = flag;
+            if(!flag){//關時，愛心為空心，且菜單不顯示
+            document.getElementById("like").src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/upload.png";
+            document.getElementById("drop").style.display="none";
+            }
+            else{//開時，愛心為實心，顯示菜單
+            document.getElementById("like").src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/upload_B.png";
+            document.getElementById("drop").style.display="block"; 
+            }
+        }
+    </script>
+
+    <table style="margin:0px; width: 100%;">
+        <tbody style="margin:0px;">
+        <tr id="left"style="margin:0px;">
+            <td>
+        
+        
+        <!--此為在網頁中嵌入另外一個html網頁-->
+        <div id="limited">
+          
+            <iframe style=" border-style: solid;
+            border-color: #72788A ;
+            border-width:2px; position: relative; width:100% ; height: 100%;" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/try.html">
+            
+            </iframe>
+        </div>
+
+        <div id="story">
+            <div id="mug_shot">
+                <image id="mug1" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/mug.jpg"></image>
+                <p  id="dog">loser_dogg</p>
+            </div>
+            <div id="picture">
+                <image id="im1" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/image1.jpg"></image>
+                
+            </div>
+           <!-- <div id="response">
+                <image id="heart" src="image/heart_A.png"></image>
+                <image id="message" src="image/chat.png"></image>
+            
+            </div>
+            <div id="likeby">
+                <p id="likebysomeone">Liked by <strong>nobody</strong></p>
+            </div>-->
+
+            <div id="article">
+                <p id="article1"><strong>loser_dogg</strong> 你真的好調皮，你越調皮我越愛</br>調皮小壞壞</p>
+            
+            </div>
+            <div id="comment">
+                <p ><a id="comment_"  style="text-decoration:none;" href="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/CHAT.html">add some comment...</a></p>
+            </div>
+        </div>
+        <div id="story">
+            <div id="mug_shot">
+                <image id="mug2" class="mg2" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/image2.jpg"></image>
+                <p  id="dog">hot_catbabe</p>
+            </div>
+            <div id="picture">
+                <image id="im2" class="pg2" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/image3.jpg"></image>
+                
+            </div>
+          <!--  <div id="response">
+                <image id="heart" src="image/heart_B.png"></image>
+                <image id="message" src="image/chat.png"></image>
+            
+            </div>
+            <div id="likeby">
+                <p id="likebysomeone">Liked by <strong>yourself</strong></p>
+            </div>-->
+            <div id="article">
+                <p id="article2"><strong>hot_catbabe</strong> 看甚麼看 沒看過仙女下凡嗎?</br>現在看過了</p>
+            
+            </div>
+            <div id="comment">
+                <p><a id="comment_"  style="text-decoration:none;" href="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/CHAT.html">add some comment...</a></p>
+            </div>
+        </div>
+        </td>
+        <td>
+        <div id="right">
+            <table >
+                <tbody>
+                    <tr>
+                        <td style="position:absolute;width: 50%;height: 10%;">
+                            <image id="profile2" src="https://iot.ntue.edu.tw/stProject/electronics/108/2/GP1/report/ESP8266/image/profile.png"></image>
+         
+                        </td>
+                        <td style="position: absolute; left: 30%;">
+                            <p style="font-family: Trebuchet MS;"><strong>a8s287</strong></p>
+                            <p id="p1">昱雅的昱，亞閒的亞，昱亞</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+        </body>
+</html>
+<script type="text/javascript">
+    function myFun(){
+     myTxt = document.myForm.myText;
+     alert("你輸入的值："+myTxt.value);
+     document.getElementById("mug1").src="https://"+myTxt.value;
+     document.getElementById("tttt").innerHTML=document.getElementById("mug1").src;//改變第一個頭貼路徑
+         }
+    function myFun1(){
+     myTxt1 = document.myForm.myText1;
+     alert("你輸入的值："+myTxt1.value);
+     document.getElementById("article1").innerHTML="<strong>loser_dogg</strong>"+myTxt1.value;//改變第一篇文章的字
+    }
+    function myFun2(){
+     myTxt2 = document.myForm.myText2;
+     alert("你輸入的值："+myTxt2.value);
+     document.getElementById("im1").src="https://"+myTxt2.value;
+     document.getElementById("tttt").innerHTML=document.getElementById("im1").src;//改變照片一的路徑
+    }
+    function myFun22(){
+     myTxt22 = document.myForm.myText22;
+     alert("你輸入的值："+myTxt22.value);
+     document.getElementById("mug2").src="https://"+myTxt22.value;
+     document.getElementById("tttt").innerHTML=document.getElementById("mug2").src;//改變第二個頭貼的路徑
+    }
+    function myFun21(){
+     myTxt21 = document.myForm.myText21;
+     alert("你輸入的值："+myTxt21.value);
+     document.getElementById("article2").innerHTML="<strong>hot_catbabe</strong>"+myTxt21.value;//改變第二篇的字
+    }
+    function myFun20(){
+     myTxt20 = document.myForm.myText20;
+     alert("你輸入的值："+myTxt20.value);
+     document.getElementById("im2").src="https://"+myTxt20.value;
+     document.getElementById("tttt").innerHTML=document.getElementById("im2").src;//改變第二個照片的路徑
+    }
+   </script>

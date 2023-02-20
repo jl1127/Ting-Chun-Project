@@ -28,6 +28,7 @@ C/C++
 2. JavaScript
 3. CSS
 4. jQuerry
+5. PHP
 ### Description
 #### Hardware
 1. Station: ESP8266

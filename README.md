@@ -17,7 +17,7 @@ C/C++
 ### Description
 1. A final project of Applied Electronics, based on Arduino.
 2. A breathing light is simulated star tree topper.
-3. A RGB LED is simulated Christmas lights, which can randomly change colors.
+3. A RGB LED that imitates Christams lights, which can randomly change colors.
 
 
 ---

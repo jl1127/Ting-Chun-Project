@@ -35,9 +35,10 @@ C/C++
 2. AP: Phone
 3. server
 #### Concept
-1. Burn web page to ESP8266 IC.
-2. The mobile phone can connect to the web pages and upload data.
-3. Using form features make web pages interactive.
+1. Using MQTT techniques.
+2. Burn web page to ESP8266 IC.
+3. The mobile phone can connect to the web pages and upload data.
+4. Using form features make web pages interactive.
 
 
 ---

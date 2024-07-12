@@ -1,0 +1,42 @@
+p {
+    text-indent: 0;
+    margin: 0; /* 確保沒有額外的邊距 */
+}
+
+.contractContainer {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    background-color:#FFF;
+    max-height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 陰影效果，可以根據需要調整 */
+    
+}
+
+.Service{
+    padding : 10px;
+    white-space: normal;
+}
+
+
+
+.highlight {
+    color: #EA0000; /* 設置字體顏色 */
+    cursor: help; /* 游標變問號 */
+    text-decoration: underline; /* 加底線 */
+}
+
+.tooltip-box {
+    position: absolute;
+    z-index: 1000;
+    background-color:#ffe8e8; /* 彈出視窗背景色 */
+    color: #CE0000; /* 文字顏色 */
+    font-weight:bold; /* 文字粗體 */
+    border: 1px solid #EA0000;
+    border-radius: 15px;
+    padding: 10px; /* 輕微增加填充以改善可讀性 */
+    display: none;
+    max-width: 80%; /* 最大寬度，避免過長 */
+    font-size: 14px; /* 較小的字體大小 */
+    word-wrap: break-word; /* 換行 */
+}

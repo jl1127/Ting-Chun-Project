@@ -1,0 +1,35 @@
+body, html {
+  height: 100%; /* unified height setting for html and body */
+  min-height: 100vh; /* ensures minimum height corresponds to the viewport height */
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.position-relative {
+  overflow-y: auto;
+}
+
+.chatHistory{
+  width: 20%;
+  float: left;
+  overflow: auto; 
+}
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    flex-grow: 1;
+    flex-direction: row;
+  }
+}

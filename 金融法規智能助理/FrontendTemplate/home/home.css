@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container that holds both the chat history and chat room */
+.container-fluid {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevents scroll bars on the container itself */
+  width: 100%; /* Full width to avoid any unexpected behavior */
+}
+
+.chatHistory {
+  width: 25%; /* 25% of the viewport width */
+  overflow-y: auto; /* Allows scrolling vertically if content overflows */
+  flex-shrink: 0; /* Prevents the div from shrinking */
+}
+
+.chatRoom {
+  width: 75%; /* 75% of the viewport width */
+  overflow-y: auto; /* Allows scrolling vertically if content overflows */
+  flex-grow: 1; /* Takes remaining space in the flex layout */
+}
+
+/* Additional styles to manage the appearance and interaction */
+.btn-toggle, .btn-toggle-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .5rem;
+  margin: 0.125rem 0 0 1.25rem;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+  border: none; /* Removes border */
+}
+
+.btn-toggle:hover, .btn-toggle:focus, 
+.btn-toggle-nav a:hover, .btn-toggle-nav a:focus {
+  color: rgba(0, 0, 0, .85);
+  background-color: #d2f4ea;
+}
+
+.fw-semibold { font-weight: 600; }
+.lh-tight { line-height: 1.25; }
+
+.position-relative { overflow-y: auto; }
